@@ -1,0 +1,27 @@
+{
+  "name": "0004",
+  "version": "1.0.0",
+  "description": "Zoo and URL Parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maldonadod/0004.git"
+  },
+  "keywords": [
+    "Zoo",
+    "URL",
+    "Parser"
+  ],
+  "author": "Daniel E Maldonado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maldonadod/0004/issues"
+  },
+  "homepage": "https://github.com/maldonadod/0004#readme",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
