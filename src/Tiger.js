@@ -1,8 +1,9 @@
-const Tiger = speakLikeTiger => {
-    return {
-        speak(message) {
-            return speakLikeTiger(message)
-        }
+class Tiger {
+    constructor(speakLikeTiger) {
+        this.speakLikeTiger = speakLikeTiger
+    }
+    speak(message) {
+        return this.speakLikeTiger(message)
     }
 }
-module.exports = Tiger
+module.exports = speakLikeTiger => new Tiger(speakLikeTiger)
