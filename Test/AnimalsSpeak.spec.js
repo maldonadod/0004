@@ -6,12 +6,13 @@ const Lion = require('../src/Lion')
 
 describe('All animals talk to each other in a similar way', () => {
 
-    describe("speak(string) behaves inserting a variable after each word", () => {
+    describe("speak(string) behaves inserting a key after each word", () => {
 
         it('insert sss', () => {
             const actual = "TDD can reduce bug density"
             const expected = "TDD xxx can xxx reduce xxx bug xxx density xxx"
-            const speak = SpeakStrategy('xxx')
+            const key = "xxx"
+            const speak = SpeakStrategy(key)
             AssertEquals(
                 speak(actual), expected
             )
@@ -19,7 +20,8 @@ describe('All animals talk to each other in a similar way', () => {
         it('insert ah!', () => {
             const actual = "TDD can encourage more modular designs"
             const expected = "TDD ah! can ah! encourage ah! more ah! modular ah! designs ah!"
-            const speak = SpeakStrategy('ah!')
+            const key = "ah!"
+            const speak = SpeakStrategy(key)
             AssertEquals(
                 speak(actual), expected
             )
@@ -27,7 +29,8 @@ describe('All animals talk to each other in a similar way', () => {
         it('insert ra ra', () => {
             const actual = "TDD can reduce code complexity"
             const expected = "TDD ra ra can ra ra reduce ra ra code ra ra complexity ra ra"
-            const speak = SpeakStrategy('ra ra')
+            const key = "ra ra"
+            const speak = SpeakStrategy(key)
             AssertEquals(
                 speak(actual), expected
             )
