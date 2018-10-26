@@ -1,8 +1,8 @@
 const AssertEquals = (a, b) => expect(a).toEqual(b)
 
-const SpeakStrategy = require('../src/SpeakStrategy')
-const Tiger = require('../src/Tiger')
-const Lion = require('../src/Lion')
+const SpeakStrategy = require('../src/Zoo/SpeakStrategy')
+const Tiger = require('../src/Zoo/Tiger')
+const Lion = require('../src/Zoo/Lion')
 
 describe('All animals talk to each other in a similar way', () => {
 
