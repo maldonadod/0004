@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1540572750634" clover="3.2.0">
-  <project timestamp="1540572750634" name="All files">
+<coverage generated="1540572876031" clover="3.2.0">
+  <project timestamp="1540572876032" name="All files">
     <metrics statements="45" coveredstatements="45" conditionals="8" coveredconditionals="8" methods="22" coveredmethods="22" elements="75" coveredelements="75" complexity="0" loc="45" ncloc="45" packages="2" files="6" classes="6">
       <package name="URLParser">
         <metrics statements="35" coveredstatements="35" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13"/>
@@ -9,15 +9,15 @@
           <line num="1" count="1" type="stmt"/>
           <line num="2" count="3" type="stmt"/>
           <line num="3" count="3" type="cond" truecount="2" falsecount="0"/>
-          <line num="6" count="1" type="stmt"/>
-          <line num="7" count="5" type="stmt"/>
-          <line num="12" count="2" type="stmt"/>
-          <line num="14" count="5" type="stmt"/>
-          <line num="16" count="1" type="stmt"/>
+          <line num="5" count="5" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="5" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
           <line num="17" count="3" type="stmt"/>
-          <line num="18" count="3" type="stmt"/>
-          <line num="20" count="3" type="stmt"/>
-          <line num="28" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
         </file>
         <file name="URL.js" path="/Users/dmaldonado/www/0004/src/URLParser/URL.js">
           <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
