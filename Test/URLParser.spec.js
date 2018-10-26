@@ -36,4 +36,21 @@ describe('URL Parser Exercise', () => {
         
         AssertEquals(actual, expected)
     })
+    
+    it('should parse path params plus query string params (2)', () => {
+
+        const url = "/6/api/albums/5?sort=desc&limit=30"
+        const format = URLFormat("/:version/api/:collection/:id")
+        const actual = URL({url, format}).paramsAsHash()
+
+        const expected = {
+            version: 6,
+            collection: "albums",
+            id: 5,
+            sort: "desc",
+            limit: 30
+        }
+        
+        AssertEquals(actual, expected)
+    })
 })
