@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1540572876031" clover="3.2.0">
-  <project timestamp="1540572876032" name="All files">
-    <metrics statements="45" coveredstatements="45" conditionals="8" coveredconditionals="8" methods="22" coveredmethods="22" elements="75" coveredelements="75" complexity="0" loc="45" ncloc="45" packages="2" files="6" classes="6">
+<coverage generated="1540647909202" clover="3.2.0">
+  <project timestamp="1540647909203" name="All files">
+    <metrics statements="50" coveredstatements="50" conditionals="8" coveredconditionals="8" methods="22" coveredmethods="22" elements="80" coveredelements="80" complexity="0" loc="50" ncloc="50" packages="2" files="7" classes="7">
       <package name="URLParser">
         <metrics statements="35" coveredstatements="35" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13"/>
         <file name="QueryParams.js" path="/Users/dmaldonado/www/0004/src/URLParser/QueryParams.js">
@@ -50,12 +50,13 @@
         </file>
       </package>
       <package name="Zoo">
-        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
         <file name="Lion.js" path="/Users/dmaldonado/www/0004/src/Zoo/Lion.js">
-          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-          <line num="3" count="1" type="stmt"/>
-          <line num="6" count="2" type="stmt"/>
-          <line num="9" count="1" type="stmt"/>
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
         </file>
         <file name="SpeakStrategy.js" path="/Users/dmaldonado/www/0004/src/Zoo/SpeakStrategy.js">
           <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
@@ -64,11 +65,18 @@
           <line num="3" count="28" type="stmt"/>
           <line num="6" count="1" type="stmt"/>
         </file>
+        <file name="SpeakingAnimal.js" path="/Users/dmaldonado/www/0004/src/Zoo/SpeakingAnimal.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="6" count="4" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
         <file name="Tiger.js" path="/Users/dmaldonado/www/0004/src/Zoo/Tiger.js">
-          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-          <line num="3" count="1" type="stmt"/>
-          <line num="6" count="2" type="stmt"/>
-          <line num="9" count="1" type="stmt"/>
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>

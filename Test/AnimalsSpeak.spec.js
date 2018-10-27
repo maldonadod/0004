@@ -38,8 +38,8 @@ describe('All animals talk to each other in a similar way', () => {
     })
 
     describe('Tigers should "grrr"', () => {
-        const speakLikeTiger = SpeakStrategy("grrr")
-        const tiger = Tiger(speakLikeTiger)
+        
+        const tiger = Tiger()
     
         it('Lions suck', () => {
             const actual = "Lions suck"
@@ -54,8 +54,7 @@ describe('All animals talk to each other in a similar way', () => {
     })
 
     describe('Lions should "roar"', () => {
-        const speakLikeLion = SpeakStrategy("roar")
-        const lion = Lion(speakLikeLion)
+        const lion = Lion()
     
         it("I'm a lion", () => {
             const actual = "I'm a lion"

@@ -1,9 +1,10 @@
-class Lion {
+const SpeakStrategy = require('./SpeakStrategy')
+const SpeakingAnimal = require('./SpeakingAnimal')
+
+class Lion extends SpeakingAnimal {
     constructor(speakLikeLion) {
-        this.speakLikeLion = speakLikeLion
-    }
-    speak(message) {
-        return this.speakLikeLion(message)
+        super(speakLikeLion)
     }
 }
-module.exports = speakLikeLion => new Lion(speakLikeLion)
+
+module.exports = () => new Lion(SpeakStrategy("roar"))
